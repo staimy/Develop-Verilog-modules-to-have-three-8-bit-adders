@@ -1,0 +1,2 @@
+# Develop-Verilog-modules-to-have-three-8-bit-adders
+The three adders operate in serial, one after another, to perform an addition of in1 + in2 + in3 + in4 (you can ignore carry bits). To save power, turn off any adder that is not in use, and this can be done by using external enable signals to register the necessary inputs and outputs of each adder. Synthesis (without area optimization) and simulate the design.
